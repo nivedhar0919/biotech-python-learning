@@ -130,7 +130,7 @@ print(f"Total GC content is {GC:.2f}%")
 # Expected output = 50.00%
 
 # ==========================================
-# EXERCISE 4: PROTEIN MOLECULAR WEIGHT
+# EXERCISE 5: PROTEIN MOLECULAR WEIGHT
 # ==========================================
 
 # Biotechnology Concept:
@@ -158,7 +158,7 @@ print(f"Molecular weight of the protein is {Molecular_weight} Da")
 
 
 # ==========================================
-# EXERCISE 5: ENZYME ACTIVITY CALCULATOR
+# EXERCISE 6: ENZYME ACTIVITY CALCULATOR
 # ==========================================
 
 # Biotechnology Concept:
@@ -186,7 +186,7 @@ print(f"Enzyme activity is {U:.2f} U")
 
 
 # ==========================================
-# EXERCISE 6: SOLUTION DILUTION CALCULATOR
+# EXERCISE 7: SOLUTION DILUTION CALCULATOR
 # ==========================================
 
 # Biotechnology Concept:
@@ -218,7 +218,7 @@ print(f"Final concentration is {C_2:.2f} mg/mL")
 
 
 # ==========================================
-# EXERCISE 7: MICROBIAL GROWTH RATE
+# EXERCISE 8: MICROBIAL GROWTH RATE
 # ==========================================
 
 # Biotechnology Concept:
@@ -250,7 +250,7 @@ print(f"Growth rate is {G_R:.2f} cells/hour")
 
 
 # ==========================================
-# EXERCISE 8: DNA GC CONTENT CALCULATOR
+# EXERCISE 9: DNA GC CONTENT CALCULATOR
 # ==========================================
 
 # Biotechnology Concept:
@@ -291,7 +291,7 @@ main()
 
 
 # ==========================================
-# EXERCISE 9: DNA SEQUENCE LENGTH CALCULATOR
+# EXERCISE 10: DNA SEQUENCE LENGTH CALCULATOR
 # ==========================================
 
 # Biotechnology Concept:
@@ -322,7 +322,7 @@ main()
 
 
 # ==========================================
-# EXERCISE 10: PROTEIN MOLECULAR WEIGHT CALCULATOR
+# EXERCISE 11: PROTEIN MOLECULAR WEIGHT CALCULATOR
 # ==========================================
 
 # Biotechnology Concept:
