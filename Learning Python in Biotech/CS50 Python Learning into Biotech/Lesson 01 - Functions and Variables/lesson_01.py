@@ -66,6 +66,37 @@ print(f"The amount of medium powder required is {M:.2f}g.")
 # Expected output = 6.25 g
 
 
+# ==========================================
+# EXERCISE 3: DNA SEQUENCE GC CONTENT
+# ==========================================
+
+# Biotechnology Concept:
+# DNA consists of four nitrogenous bases:
+# Adenine (A), Thymine (T), Guanine (G) and Cytosine (C).
+
+# Objective:
+# Calculate the GC content percentage of DNA.
+
+# Formula:
+# GC content (%) = (G + C) / Total bases * 100
+
+# ==================================================
+# PYTHON PROGRAMME
+# ==================================================
+
+T = int(input("What is the total number of bases? "))
+bases = int(input("What is the number of guanine/cytosine bases? "))
+GC = (bases / T) * 100
+print(f"GC content is {GC:.2f}%")
+
+# SAMPLE TEST
+# Total number of bases (T) = 20
+# Guanine/Cytosine bases (G+C) = 10
+# Expected output = 50.00%
+
+
+
+
 
 
 
