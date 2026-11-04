@@ -51,7 +51,19 @@ print(f"Final number of bacterial cells: {N} cells")
 # Formula:
 # Powder required (g) = Volume (mL) * Concentration (g/L) / 1000
 
+# ==================================================
+# PYTHON PROGRAMME
+# ================================================== 
 
+V = float(input("whats the volume of medium? "))
+C = float(input("whats the concentration of medium? "))
+M = (V * C)/1000
+print(f"The amount of medium powder required is {M:.2f}g.")
+
+# SAMPLE TEST
+# Volume (V) = 250 mL
+# Concentration (C) = 25 g/L
+# Expected output = 6.25 g
 
 
 
