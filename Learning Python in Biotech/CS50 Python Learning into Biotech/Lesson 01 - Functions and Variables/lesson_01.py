@@ -30,3 +30,8 @@ g = int(input("What's the number of generations? "))
 N0 = int(input("What's the initial number of bacterial cells? "))
 N = N0 * 2**g
 print(f"Final number of bacterial cells: {N} cells")
+
+# SAMPLE TEST
+# Initial bacterial cells (N0) = 100
+# Number of generations (g) = 3
+# Expected output = 800 cells
