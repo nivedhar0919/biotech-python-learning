@@ -35,3 +35,39 @@ print(f"Final number of bacterial cells: {N} cells")
 # Initial bacterial cells (N0) = 100
 # Number of generations (g) = 3
 # Expected output = 800 cells
+
+
+# ==========================================
+# EXERCISE 2: CULTURE MEDIA PREPARATION
+# ==========================================
+
+# Biotechnology Concept:
+# Culture media provide nutrients for microbial growth.
+# The amount of powder depends on the volume and concentration.
+
+# Objective:
+# Calculate the quantity of culture medium powder required.
+
+# Formula:
+# Powder required (g) = Volume (mL) * Concentration (g/L) / 1000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
