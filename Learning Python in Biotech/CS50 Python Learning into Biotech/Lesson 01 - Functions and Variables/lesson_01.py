@@ -95,6 +95,40 @@ print(f"GC content is {GC:.2f}%")
 # Expected output = 50.00%
 
 
+# ==========================================
+# EXERCISE 4: ADVANCED DNA GC CONTENT
+# ==========================================
+
+# Biotechnology Concept:
+# GC content represents the percentage of
+# Guanine (G) and Cytosine (C) in DNA.
+
+# Objective:
+# Calculate GC content directly from a DNA sequence.
+
+# Formula:
+# GC (%) = (G + C) / Total bases * 100
+
+# ==================================================
+# PYTHON PROGRAMME
+# ==================================================
+DNA = input("Enter the DNA sequence: ").upper()
+G = DNA.count("G")
+C = DNA.count("C")
+T = len(DNA)
+GC = ((G + C)/T)*100
+print(f"Total number of bases: {T}")
+print(f"Number of G bases: {C}")
+print(f"Number of C bases: {C}")
+print(f"Total GC content is {GC:.2f}%")
+
+# SAMPLE TEST
+# DNA sequence = ATGCGCAT
+# Total bases = 8
+# G bases = 2
+# C bases = 2
+# Expected output = 50.00%
+
 
 
 
