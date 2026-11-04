@@ -29,4 +29,4 @@
 g = int(input("What's the number of generations? "))
 N0 = int(input("What's the initial number of bacterial cells? "))
 N = N0 * 2**g
-print(N)
+print(f"Final number of bacterial cells: {N} cells")
