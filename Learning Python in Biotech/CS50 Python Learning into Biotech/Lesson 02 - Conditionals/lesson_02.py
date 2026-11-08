@@ -624,3 +624,104 @@ else:
 
 
 
+# ==================================================
+# EXERCISE 9: PROTEIN STABILITY CLASSIFICATION
+# ==================================================
+
+# Biotechnology Concept:
+# Protein stability refers to a protein's ability to
+# maintain its three-dimensional structure under
+# particular environmental conditions.
+#
+# Factors influencing protein stability include:
+# Temperature, pH, and chemical environment.
+#
+# Excessive temperature, unsuitable pH, and certain
+# chemicals can affect protein structure and function.
+
+# Objective:
+# Classify a protein as Stable or Unstable based on
+# temperature, pH, and the presence of a denaturing chemical.
+
+# Classification Criteria:
+# Temperature between 20°C and 40°C = Suitable
+# pH between 6.5 and 8.0             = Suitable
+# Denaturing chemical present      = No
+#
+# All three conditions must be satisfied for the
+# protein to be classified as stable.
+
+# Note:
+# These are illustrative programming conditions, not
+# universal protein-stability limits.
+# Actual stability depends on the particular protein
+# and experimental conditions.
+
+# Variables:
+# Temperature = Experimental temperature in °C
+# pH = Measured pH value
+# Denaturing_chemical = Whether a denaturing chemical is present
+
+
+# ==================================================
+# PYTHON PROGRAMME
+# ==================================================
+
+Temperature = float(input("Enter the temperature (°C): "))
+
+pH = float(input("Enter the pH value: "))
+
+Denaturing_chemical = input("Is a denaturing chemical present? ").lower()
+
+if 20 <= Temperature <= 40 and 6.5 <= pH <= 8.0 and Denaturing_chemical == "no":
+    print("Protein stable")
+else:
+    print("Protein unstable")
+
+
+# ==================================================
+# SAMPLE TESTS
+# ==================================================
+
+# Test 1:
+# Temperature: 30
+# pH: 7.0
+# Denaturing chemical: no
+# Expected output: Protein stable
+
+# Test 2:
+# Temperature: 45
+# pH: 7.0
+# Denaturing chemical: no
+# Expected output: Protein unstable
+
+# Test 3:
+# Temperature: 30
+# pH: 5.5
+# Denaturing chemical: no
+# Expected output: Protein unstable
+
+# Test 4:
+# Temperature: 30
+# pH: 7.0
+# Denaturing chemical: yes
+# Expected output: Protein unstable
+
+# Test 5:
+# Temperature: 40
+# pH: 8.0
+# Denaturing chemical: no
+# Expected output: Protein stable
+
+
+# ==================================================
+# END OF EXERCISE 9
+# ==================================================
+
+
+
+
+
+
+
+
