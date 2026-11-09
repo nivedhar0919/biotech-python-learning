@@ -720,6 +720,121 @@ else:
 
 
 
+# ==================================================
+# EXERCISE 10: BIOTECHNOLOGY LABORATORY DECISION ASSISTANT
+# ==================================================
+
+# Biotechnology Concept:
+# Biotechnology laboratories perform quality checks
+# before accepting samples for further processing.
+#
+# DNA samples can be evaluated based on sample
+# identification, DNA concentration, DNA purity,
+# and contamination status.
+#
+# These checks help determine whether a sample
+# meets predefined laboratory acceptance criteria.
+
+# Objective:
+# Develop a laboratory decision assistant that evaluates
+# a DNA sample using multiple conditions.
+#
+# The programme classifies the sample as Accepted
+# or Rejected based on the specified quality criteria.
+
+# Classification Criteria:
+# Sample ID greater than 0          = Valid
+# DNA concentration >= 20 ng/uL     = Suitable
+# DNA purity between 1.8 and 2.0    = Suitable
+# Contamination status = No         = Suitable
+#
+# All four conditions must be satisfied for the
+# sample to be accepted.
+
+# Note:
+# These are illustrative programming criteria for
+# learning Python, not universal laboratory standards.
+# Actual acceptance criteria depend on the experiment
+# and laboratory protocol.
+
+# Variables:
+# Sample_ID          = Numerical sample identification number
+# DNA_concentration  = DNA concentration in ng/uL
+# DNA_purity         = A260/A280 purity ratio
+# Contamination      = Whether contamination is present
+
+
+# ==================================================
+# PYTHON PROGRAMME
+# ==================================================
+
+Sample_ID = int(input("Enter the Sample ID: "))
+
+DNA_concentration = float(input("Enter DNA concentration (ng/uL): "))
+
+DNA_purity = float(input("Enter DNA purity (A260/A280): "))
+
+Contamination = input("Is contamination present? ").lower()
+
+if Sample_ID > 0 and DNA_concentration >= 20 and 1.8 <= DNA_purity <= 2.0 and Contamination == "no":
+    print("Sample accepted")
+else:
+    print("Sample rejected")
+
+
+# ==================================================
+# SAMPLE TESTS
+# ==================================================
+
+# Test 1:
+# Sample ID: 101
+# DNA concentration: 50
+# DNA purity: 1.9
+# Contamination: no
+# Expected output: Sample accepted
+
+# Test 2:
+# Sample ID: 0
+# DNA concentration: 50
+# DNA purity: 1.9
+# Contamination: no
+# Expected output: Sample rejected
+
+# Test 3:
+# Sample ID: 102
+# DNA concentration: 15
+# DNA purity: 1.9
+# Contamination: no
+# Expected output: Sample rejected
+
+# Test 4:
+# Sample ID: 103
+# DNA concentration: 50
+# DNA purity: 1.5
+# Contamination: no
+# Expected output: Sample rejected
+
+# Test 5:
+# Sample ID: 104
+# DNA concentration: 50
+# DNA purity: 1.9
+# Contamination: yes
+# Expected output: Sample rejected
+
+# Test 6:
+# Sample ID: 105
+# DNA concentration: 20
+# DNA purity: 1.8
+# Contamination: no
+# Expected output: Sample accepted
+
+
+# ==================================================
+# END OF EXERCISE 10
+# ==================================================
+
+
+
 
 
 
